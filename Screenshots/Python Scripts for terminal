@@ -1,0 +1,20 @@
+How to install the dependencies for the python code 
+on debian based / ubuntu based linux distros on windows you can try running it on vs code terminal 
+
+Sudo apt install python3-pandas python3-openpyxl -y 
+
+To run the python code run on the  vs code terminal 
+
+python3 payroll.py create 
+
+This creates the excel document 
+
+To sync the excel document after  editing run on vs code terminal
+
+python3 payroll.py sync 
+
+To automatically send the PDF to the phone number on whatsapp run on vs code terminal 
+
+python3 payroll.py whatsapp
+
+
